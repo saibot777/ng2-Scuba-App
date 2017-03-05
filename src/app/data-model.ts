@@ -8,7 +8,12 @@ import {Component} from '@angular/core';
   templateUrl: 'app/dive-log.template.html'
 })
 export class DataModel {
-  public dives = [
+  site: string;
+  location: string;
+  depth: number;
+  time: number;
+
+  static StockDives: DataModel[] = [
     {
       site: 'Abu Gotta Ramada',
       location: 'Hurghada, Egypt',
