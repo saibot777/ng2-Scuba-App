@@ -4,8 +4,7 @@
 import {Component} from '@angular/core';
 
 @Component({
-  selector: 'divelog',
-  templateUrl: 'app/dive-log.template.html'
+  selector: 'divelog'
 })
 export class DataModel {
   site: string;
@@ -15,8 +14,8 @@ export class DataModel {
 
   static StockDives: DataModel[] = [
     {
-      site: 'Abu Gotta Ramada',
-      location: 'Hurghada, Egypt',
+      site: 'Rhodos',
+      location: 'Rhodos, Greece',
       depth: 72,
       time: 54
     },
